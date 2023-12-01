@@ -32,7 +32,7 @@ thread2.start()
 thread1.join()
 thread2.join()
 
-print("threads finished.")
+print("threads finished.")```
 
 
 In this example, two threads (thread1 and thread2) are created, and each thread executes a different function (print_numbers and print_letters). The start() method is called on each thread to initiate their execution, and the join() method is used to wait for the threads to complete before moving on.
