@@ -1,0 +1,25 @@
+.idea/
+*.xml
+*.zip
+*.iml
+*.pyc
+*.ionz
+*.svg
+*.pdf
+*.csv
+
+analytics/
+preprocessing/logs/
+unit_test/_trial_temp/
+
+# pyenv
+.python-version
+
+# dotenv
+.env
+
+# virtualenv
+
+.venv
+venv/
+ENV/
